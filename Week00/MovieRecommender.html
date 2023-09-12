@@ -1,0 +1,113 @@
+<!doctype html>
+    <html class="no-js" lang="">
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="icon" href="/favicon.ico" sizes="any">
+        </head>
+        <body onload="script();">
+            <h1>Movie Recommender 5000</h1>
+            <p>Answer the prompt questions to get a selection.</p>
+
+            <script>
+                    /* -- Function definition -------------
+                     * Helper function for to simplify the 
+                     *  usage of console.log().
+                     ** -- Parameter -----------------------
+                     *  Pass as many parameter as required.
+                     *  Separate them with commas.
+                     */
+                    function log() {
+                        console.log.apply(console, arguments);
+                    }
+            </script>
+
+            <!-- Selection -->
+            <script>
+
+                    let customerAge = prompt("How old are you?");
+                    let mood = prompt("What mood are you in? happy, sad, or excited?").toLowerCase();
+
+            </script>
+
+            <!-- Age -->
+            <script>
+            /*
+                switch (true) {
+                    case (customerAge <= 12):
+                        alert("You should watch a Animated movie!");
+                        log("You should watch a Animated movie!");
+                        break;
+                    case (customerAge >= 13 && customerAge <= 17):
+                        alert("You should watch a PG-13 movie!");
+                        log("You should watch a PG-13 movie!");
+                        break;
+                    case (customerAge >= 18):
+                        alert("You should watch an Action movie!");
+                        log("You should watch an Action movie!");
+                        break;
+                    default:
+                        alert("You should read a book!");
+                        log("You should read a book!");
+                        break;
+                }
+            */
+            </script>
+
+            <!-- Mood -->
+            <script>
+            /*
+                let mood = prompt("What mood are you in? happy, sad, or excited?").toLowerCase();
+                
+                switch (mood) {
+                    case "happy":
+                        alert("You should watch a comedy!");
+                        log("You should watch a comedy!")
+                        break;
+                    case "sad":
+                        alert("You should watch a drama!");
+                        log("You should watch a drama!")
+                        break;
+                    case "excited":
+                        alert("You should watch an action movie!");
+                        log("You should watch an action movie!")
+                        break;
+                    default:
+                        alert("You should read a book!");
+                        log("You should read a book!")
+                        break;
+                }
+            */
+            </script>
+
+            <!-- Mood and Age -->
+            <script>
+                if(mood == "happy" && customerAge <= 13) {
+                    alert("You should watch a comedy!");
+                    log("You should watch a comedy!");
+                } else if(mood == "happy" && customerAge >= 14) {
+                    alert("You should watch a romantic comedy!");
+                    log("You should watch a romantic comedy!");
+                } else if(mood == "sad" && customerAge <= 13) {
+                    alert("You should watch an animated movie!");
+                    log("You should watch an animated movie!");
+                } else if(mood == "sad" && customerAge >= 14) {
+                    alert("You should watch a drama!");
+                    log("You should watch a drama!");
+                } else if(mood == "excited" && customerAge <= 13) {
+                    alert("You should watch an action movie!");
+                    log("You should watch an action movie!");
+                } else if(mood == "excited" && customerAge >= 14) {
+                    alert("You should watch a thriller!");
+                    log("You should watch a thriller!");
+                } else {
+                    alert("You should read a book!");
+                    log("You should read a book!");
+                }
+            </script>
+
+            
+        </body>

@@ -1,0 +1,6 @@
+
+*.sqlite
+.vs/ProjectSettings.json
+.vs/SoftwareEngineerCourseWork/v16/.suo
+.vs/VSWorkspaceState.json
+.vscode/launch.json
