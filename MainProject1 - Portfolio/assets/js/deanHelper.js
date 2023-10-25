@@ -30,5 +30,3 @@ function getCurrentTime() {
 function getCurrentDateTime() {
     return getCurrentDate() + " | " + getCurrentTime();
 }
-
-// to get
