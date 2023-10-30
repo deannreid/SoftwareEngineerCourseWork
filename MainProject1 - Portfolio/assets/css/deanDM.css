@@ -11073,7 +11073,7 @@ small, .small {
   .contact-clean form .btn {
     padding: 16px 32px;
     border: none;
-    background: none;
+    
     box-shadow: none;
     text-shadow: none;
     opacity: 0.9;
@@ -11116,7 +11116,7 @@ small, .small {
 }
 
 #popup-form-container form {
-    background-color: #ffffff;
+    background-color: #3a3b59;
     padding: 20px;
     border-radius: 5px;
     width: 80%;
