@@ -1,4 +1,4 @@
-# _Calculator_ - A **simple react js calculator** with the basic functions
+# _Calculator_ - Your generic React Calculator that has about 5 million versions
 
 **fast run:**
 ----
