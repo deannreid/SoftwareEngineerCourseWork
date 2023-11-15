@@ -1,0 +1,107 @@
+body {
+    background-color: #1E1E1E;
+    transition: 0.3s;
+    margin: 0;
+    color: #F8F8F8;
+}
+
+.minHe {
+    min-height: 92vh;
+}
+
+/* .Calc{
+        position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;display: flex;
+overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+} */
+
+.Calculator {
+    background-color: #2E2E2E;
+    border-radius: 26px;
+    /* padding: 20px; */
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 25px;
+    transition: 0.3s;
+    margin-bottom: 25px;
+    color: #F8F8F8;
+    box-shadow: 4px 2px 30px -15px rgb(255 255 255 / 22%);
+}
+
+.Operations {
+    display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-direction: column;
+    grid-gap: 10px;
+    gap: 10px;
+    background: #1E1E1E;
+    padding: 35px 25px;
+    border-radius: 50px 50px 26px 26px;
+    transition: 0.3s;
+}
+
+.dot {
+    flex: 45.5%;
+}
+
+.dot button {
+    max-width: none;
+}
+
+.Operations .parent {
+    display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
+
+    gap: 10px;
+}
+
+.equals {
+    z-index: 1;
+}
+
+.equals button {
+    padding: 98px 0;
+    display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.last__pa {
+    margin-top: -102px;
+}
+
+
+.padd__box {
+    padding: 20px;
+}
+
+
+.noneBtn {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .Calculator {
+        max-width: 300px;
+    }
+
+    .equals button {
+        padding: 55px 0;
+    }
+
+    .last__pa {
+        margin-top: -60px;
+    }
+
+    .Calculator {
+        margin-top: 60px;
+    }
+}

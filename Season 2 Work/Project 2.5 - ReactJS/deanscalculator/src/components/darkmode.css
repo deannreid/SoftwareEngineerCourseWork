@@ -1,0 +1,61 @@
+.darkmode {
+    align-items: center;
+    background: #2a2d37;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.darkmode img {
+    border-radius: inherit;
+    /* background-color: aqua; */
+    cursor: pointer;
+    opacity: 0.2;
+    padding: 7px 15px;
+    transition: 0.3s;
+}
+
+.darkmode img.ON {
+    background-color: #353d51;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.darkmodeDeAct .Operations {
+    background: #475175;
+    transition: 0.3s;
+}
+
+.darkmodeDeAct .Calculator {
+    background-color: #101c3c;
+    transition: 0.3s;
+}
+
+.darkmodeDeAct .darkmode img.ON { background-color: #cf6567 }
+
+.darkmodeDeAct {
+    background-color: #f5f5f5;
+    transition: 0.3s;
+}
+
+.darkmodeDeAct .button button {
+    background-color: #f5f5f5;
+    transition: 0.3s;
+}
+
+.darkmodeDeAct .button:not(.buttons__si, .cls) button { color: #2a2d37; }
+
+.darkmodeDeAct .darkmode { background-color: #475175; }
+
+@media only screen and (max-width: 600px) {
+    .darkmode { margin-bottom: 0px; }
+
+    .darkmode img {
+        max-width: 20px;
+        padding: 3px 8px;
+    }
+}
